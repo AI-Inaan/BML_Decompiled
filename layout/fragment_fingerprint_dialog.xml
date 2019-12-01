@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="?attr/dialogPreferredPadding" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="15dp" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16dp" android:textColor="@color/secondary_grey_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/confirm_fingerprint" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <ImageView android:background="@drawable/circle_drawable" android:padding="4dp" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:layout_marginRight="8dp" android:src="@drawable/ic_fingerprint_black_24dp" />
+        <TextView android:textColor="@color/primary_grey" android:ellipsize="end" android:id="@+id/textStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/touch_sensor" android:lines="1" />
+    </LinearLayout>
+</LinearLayout>

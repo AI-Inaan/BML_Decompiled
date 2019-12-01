@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/swipe_layout" app:background="?unknown_attr_ref: 1010031" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <android.support.v7.widget.RecyclerView app:scrollbarStyle="outsideOverlay" app:id="@+id/details_list" app:paddingTop="@dimen/activity_vertical_margin" app:paddingBottom="@dimen/activity_vertical_margin" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/activity_vertical_margin" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.v4.widget.SwipeRefreshLayout>

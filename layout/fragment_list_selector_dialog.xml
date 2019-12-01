@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:padding="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="bold" android:textColor="@color/primary_red" android:id="@+id/dialog_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hello_blank_fragment" android:fontFamily="sans-serif" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/progress_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin">
+        <ProgressBar android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginRight="8dp" android:indeterminate="true" style="?unknown_attr_ref: 1010079" />
+        <TextView android:textColor="@color/primary_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please wait..." />
+    </LinearLayout>
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@+id/dialog_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/primary_background_red" app:layout_width="match_parent" app:layout_height="match_parent"
+    <RelativeLayout app:clipToPadding="true" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginTop="-64dp">
+        <mv.com.bml.mib.widgets.CircleLayout app:id="@+id/dial" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_centerHorizontal="true" app:circleBackground="@drawable/dial_circle" app:circleDivider="@drawable/circle_divider" app:firstChildPosition="90" app:isRotating="true" app:speed="30">
+            <mv.com.bml.mib.widgets.CircleImageView app:id="@+id/btn_history" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/accounts" />
+            <mv.com.bml.mib.widgets.CircleImageView app:id="@+id/btn_settings" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/settings" app:name="test" />
+            <mv.com.bml.mib.widgets.CircleImageView app:id="@+id/btn_contact" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/contact_bank" />
+            <mv.com.bml.mib.widgets.CircleImageView app:id="@+id/btn_locations" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/atm_branch" />
+            <mv.com.bml.mib.widgets.CircleImageView app:id="@+id/btn_exchange" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/exchange_rates" />
+            <mv.com.bml.mib.widgets.CircleImageView app:id="@+id/btn_transfer" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/paytransfer" />
+        </mv.com.bml.mib.widgets.CircleLayout>
+        <mv.com.bml.mib.widgets.CircleImageView app:id="@+id/btn_center" app:padding="24dp" app:layout_width="UNKNOWN_DATA_0x5c01" app:layout_height="UNKNOWN_DATA_0x5c01" app:src="@drawable/logout" app:scaleType="fitCenter" app:layout_centerInParent="true" app:isCenter="true" />
+    </RelativeLayout>
+    <ImageView app:id="@+id/logo_bottom" app:layout_width="UNKNOWN_DATA_0xb401" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/loginheader_offset_top" app:src="@drawable/bml_bottom_logo" app:adjustViewBounds="true" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" />
+</RelativeLayout>

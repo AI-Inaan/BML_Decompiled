@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="?attr/selectableItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_vertical_margin" android:layout_marginRight="@dimen/activity_vertical_margin">
+    <TextView android:textSize="40sp" android:textColor="@color/primary_red" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/activity_vertical_margin" android:text="•" />
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingTop="@dimen/loginheader_offset_top_small" android:paddingBottom="@dimen/loginheader_offset_top_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.6">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/secondary_grey_dark" android:ellipsize="end" android:id="@+id/text_account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hello_world" android:fontFamily="sans-serif-light" />
+            <TextView android:textSize="16sp" android:id="@+id/text_account_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hello_world" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/secondary_grey_dark" android:id="@+id/text_account_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hello_world" android:fontFamily="sans-serif-light" />
+            <TextView android:textSize="16sp" android:id="@+id/text_account_currency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hello_world" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" />
+    <include android:id="@+id/ccy_from" layout="@layout/listitem_converter_header" />
+    <View android:background="@color/primary_background_red" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <include android:id="@+id/ccy_to" layout="@layout/listitem_converter_header" />
+    <TextView android:textColor="#fff" android:background="@color/primary_background_red" android:paddingLeft="@dimen/activity_vertical_margin" android:paddingTop="5dp" android:paddingRight="@dimen/activity_vertical_margin" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/exchange_rates" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@color/secondary_grey_light" android:paddingLeft="@dimen/activity_vertical_margin" android:paddingTop="5dp" android:paddingRight="@dimen/activity_vertical_margin" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/title_ccy" android:layout_weight="1.0" android:fontFamily="sans-serif" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="wrap_content" android:layout_marginRight="@dimen/activity_vertical_margin" android:text="@string/title_sell" android:fontFamily="sans-serif" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="wrap_content" android:text="@string/title_buy" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <ListView android:id="@+id/exchange_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

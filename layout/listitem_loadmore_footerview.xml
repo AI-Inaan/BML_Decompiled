@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:textColor="@color/secondary_blue" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_load_more" android:background="?attr/selectableItemBackground" android:padding="@dimen/loginheader_offset_top_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Load More" android:fontFamily="sans-serif" />
+</RelativeLayout>

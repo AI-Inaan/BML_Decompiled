@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/swipe_layout" android:background="?unknown_attr_ref: 1010031" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/listitem_account_item" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="bold" android:textColor="#fff" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@color/primary_background_red" android:paddingLeft="@dimen/activity_vertical_margin" android:paddingTop="8dp" android:paddingRight="@dimen/activity_vertical_margin" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/account_header_account_details" android:fontFamily="sans-serif" />
+        <View android:background="@color/secondary_grey_light" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <ListView android:id="@+id/details_list" android:background="#dedede" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="bold" android:textColor="#fff" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/titleList2" android:background="@color/primary_background_red" android:paddingLeft="@dimen/activity_vertical_margin" android:paddingTop="8dp" android:paddingRight="@dimen/activity_vertical_margin" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:text="@string/account_header_last_statement" android:fontFamily="sans-serif" />
+        <View android:background="@color/secondary_grey_light" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <ListView android:id="@+id/details_list2" android:background="#dedede" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin">
+            <Button android:id="@+id/btn_paytocard" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/account_header_paytocard" style="@style/AppTheme_BottomButton" />
+            <Button android:id="@+id/btn_transfer" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/account_header_make_transfer" style="@style/AppTheme_BottomButton" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@+id/map" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="0.5" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/toggle_header" android:background="@color/primary_background_red" android:paddingLeft="@dimen/activity_vertical_margin" android:paddingTop="12dp" android:paddingRight="@dimen/activity_vertical_margin" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#fff" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/location_title" android:layout_weight="1.0" android:fontFamily="sans-serif" />
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/toggle_location_list" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_expand_more" android:adjustViewBounds="true" />
+    </LinearLayout>
+    <ListView android:id="@+id/location_list" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="0.5" />
+</LinearLayout>

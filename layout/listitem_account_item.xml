@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:padding="@dimen/loginheader_offset_top_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.6">
+        <TextView android:textSize="18sp" android:textColor="@color/secondary_grey_dark" android:ellipsize="end" android:id="@+id/text_account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+        <TextView android:textSize="16sp" android:textColor="@color/primary_grey" android:ellipsize="end" android:id="@+id/text_account_name_secondary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+        <TextView android:textSize="16sp" android:textColor="@color/primary_grey" android:id="@+id/text_account_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-condensed" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="18sp" android:textColor="@color/secondary_grey_dark" android:id="@+id/text_account_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-condensed" />
+        <TextView android:textSize="16sp" android:textColor="@color/primary_grey" android:id="@+id/text_account_currency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+    </LinearLayout>
+</LinearLayout>
