@@ -344,6 +344,7 @@ public class LoginActivity extends BasePinCodeActivity implements OnClickListene
                             LoginActivity.this.startDashboard();
                         }
                     };
+                    //what is this elite mode and what does it do i need answers
                     if (!isEliteModeEnabled() || !this.auto_proceed) {
                         create.show();
                         from.authenticate(null, 0, cancellationSignal, r6, null);
