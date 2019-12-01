@@ -130,11 +130,12 @@ public class SettingsActivity extends BasePinCodeActivity {
                     int i = this.eliteCounter + 1;
                     this.eliteCounter = i;
                     if (i == 15) {
-                        String str2 = "elite_mode";
+                        String str2 = "elite_mode"; //tapping app version on settings 15 times activates an "elite mode
                         PreferenceManager.getDefaultSharedPreferences(getActivity()).edit().putBoolean(str2, !PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean(str2, false)).apply();
                         this.eliteCounter = 0;
                         ((Vibrator) getActivity().getSystemService("vibrator")).vibrate(300);
                         try {
+                            //the data copied to clipboard is string at the end of the otp msg recived not sure what function this serves
                             ((ClipboardManager) getActivity().getSystemService("clipboard")).setPrimaryClip(ClipData.newPlainText("rand", new SignatureHelper(getActivity()).getAppSignatures()));
                         } catch (Exception e) {
                             e.printStackTrace();
