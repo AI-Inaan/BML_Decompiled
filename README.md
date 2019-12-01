@@ -8,3 +8,8 @@ mibapi
 # Frontend code
 layout
 values
+
+## TODO
+- [ ] find a way to make android project
+- [ ] change the ui
+- [ ] make custom bml client 
