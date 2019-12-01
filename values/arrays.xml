@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="benef_account_type_list">
+        <item>BML Account</item>
+        <item>Domestic Account</item>
+    </array>
+    <array name="benef_inst_methods">
+        <item>BENEFICIARY</item>
+        <item>REMITTER</item>
+        <item>SHARED PARTIES</item>
+    </array>
+    <array name="domestic_bank_code_list">
+        <item>BOC</item>
+        <item>HBL</item>
+        <item>HSBC</item>
+        <item>MIB</item>
+        <item>SBI</item>
+        <item>MCB</item>
+    </array>
+    <array name="menu_bottom">
+        <item>ic_contact,Contact Bank, action.contact</item>
+        <item>ic_person,Logout, action.logout</item>
+        <item>ic_exit,Exit, action.exit</item>
+    </array>
+    <array name="menu_top">
+        <item>ic_account,Accounts, mv.com.bml.mib.fragments.AccountsFragment</item>
+        <item>ic_payment,Payment/Transfer,mv.com.bml.mib.fragments.BeneficiaryListFragment</item>
+    </array>
+</resources>

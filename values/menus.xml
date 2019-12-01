@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="menu_add_search">res/menu/menu_add_search.xml</menu>
+    <menu name="menu_pincode_capture">res/menu/menu_pincode_capture.xml</menu>
+</resources>
